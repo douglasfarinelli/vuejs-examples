@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <title>Vue Examples</title>
+        <meta charset="utf-8">
+        <meta name="theme-color" content="#FF1744" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="page-header">
+                <h1>Vue Examples</h1>
+            </div>
+
+            <div id="address-app" class="panel panel-default">
+
+                <div class="panel-heading"><h3>Address Example</h3></div>
+                <div class=panel-body>
+                    <form method="GET" rel="form">
+                        <div class="form-body">
+                            <cc-address prefix="delivery_" suffix="_1"></cc-address>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="static/jquery/jquery.js"></script>
+        <script src="static/jquery-mask/jquery.mask.js"></script>
+        <script src="static/jquery-validation/jquery.validate.js"></script>
+        <script src="static/jquery-validation/additional-methods.js"></script>
+        <script src="static/jquery-validation/locale/messages_pt_BR.js"></script>
+        <script src="static/bootstrap/js/bootstrap.js"></script>
+        <script src="https://unpkg.com/vue/dist/vue.js"></script>
+        <script src="address/main.js"></script>
+        <script src="static/app.js"></script>
+
+    </body>
+
+</html>
